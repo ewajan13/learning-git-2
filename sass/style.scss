@@ -1,0 +1,28 @@
+$fonts: "Montserrat", sans-serif;
+$blue-font: rgb(47, 131, 201);
+$dark-font: rgb(17, 4, 63);
+$background: rgb(197, 190, 224);
+
+body {
+	margin: 0;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+header {
+        background-color: $background;
+        width: 200px;
+    p {
+        font: 100% $fonts;
+        color: $dark-font;
+        padding: 20px;
+    }
+
+    h1 {
+        font: 24px/36px $fonts;
+        background-color: $blue-font;
+    }
+}
