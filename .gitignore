@@ -72,5 +72,5 @@ typings/
 # Serverless directories
 .serverless
 
-#
-.sass-cache
+# Sass
+.sass-cache/
