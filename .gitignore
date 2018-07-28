@@ -73,4 +73,7 @@ typings/
 .serverless
 
 # Sass
-.sass-cache/
+sass-cache
+
+# Bash
+.stackdump
